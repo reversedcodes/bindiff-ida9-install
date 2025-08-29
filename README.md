@@ -1,4 +1,4 @@
-# BinDiff & BinExport Installer for IDA Pro 9.x
+# BinDiff & BinExport Installer for IDA Pro and Home 9.x
 
 This repository provides a Windows batch script to automatically build  
 [BinExport](https://github.com/google/binexport) and  
@@ -44,7 +44,7 @@ After the build, the following files should exist:
 - `build/out/binexport/ida/binexport64.dll`
 - `build/out/bindiff/ida/bindiff8_ida64.dll`
 
-Copy these DLLs to your IDA Pro `plugins` directory, for example:
+Copy these DLLs to your IDA Pro or Home `plugins` directory, for example:
 ```
 C:\Users\<USER>\AppData\Roaming\Hex-Rays\IDA Pro\plugins
 ```
