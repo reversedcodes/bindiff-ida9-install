@@ -54,3 +54,10 @@ C:\Users\<USER>\AppData\Roaming\Hex-Rays\IDA Pro\plugins
 - BinDiff requires BinExport to function properly.
 - Building the Java GUI part of BinDiff requires a commercial yFiles license and is not included here.
 - This script focuses on building the IDA Pro plugin components.
+
+### ⚠️ IDA 9.x Compatibility Note
+
+BinDiff currently expects an `ida64.exe` binary, but IDA 9.x only ships a single `ida.exe`.  
+To work around this:
+
+- Copy `ida.exe` and rename the copy to `ida64.exe`.
